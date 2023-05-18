@@ -1,0 +1,10 @@
+.board {
+  background-color: black;
+  height: 100vh;
+  padding: 50% 0;
+}
+.board h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+}

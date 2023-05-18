@@ -1,0 +1,27 @@
+.dash-nav {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  height: 100%;
+  padding: 3rem;
+  text-align: left;
+}
+.dash-nav h1 {
+  margin-bottom: 4rem;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28rem;
+}
+.nav-content img {
+  display: block;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+.nav-content p {
+  margin-bottom: 2rem;
+}
+.nav-footer p {
+  margin-bottom: 1rem;
+}

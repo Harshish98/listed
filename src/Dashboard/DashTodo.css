@@ -1,0 +1,32 @@
+.dash-todo {
+  border-radius: 20px;
+  padding: 23px 2rem;
+  background-color: white;
+  width: 480px;
+  text-align: left;
+}
+.todo-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.bold-grey {
+  color: #666666;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.grey-text {
+  color: #858585;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.border-green {
+  border-left: 5px solid #9bdd7c;
+  padding: 5px 10px;
+  margin-bottom: 12px;
+}
+.border-blue {
+  border-left: 5px solid #6972c3;
+  padding: 5px 10px;
+}

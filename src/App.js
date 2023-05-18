@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { ArcElement, CategoryScale, Chart, LineElement, LinearScale, PointElement } from 'chart.js';
 import './App.css';
+import Dashboard from './Dashboard/Dashboard';
+import SignUp from './Login/SignUp';
+import { Route, Routes } from 'react-router';
+import Create from './CreateAccount/Create';
+
+Chart.register(ArcElement, CategoryScale, LinearScale, PointElement, LineElement);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route path='/' element={<SignUp/>}/>
+      <Route path='/create' element={<Create/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/>
+      </Routes>
     </div>
   );
 }

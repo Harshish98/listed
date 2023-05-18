@@ -1,0 +1,15 @@
+.pie {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 480px;
+  padding: 2rem;
+}
+.pie h1 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.pie div {
+  height: 155px;
+  width: 150px;
+}

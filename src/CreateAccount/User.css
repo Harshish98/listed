@@ -1,0 +1,39 @@
+.user-box {
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.user-wrapper {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 380px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.user-wrapper h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.user-wrapper input {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.user-wrapper button {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}

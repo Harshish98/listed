@@ -1,0 +1,9 @@
+.landing {
+  display: flex;
+}
+.board-section {
+  flex-basis: 40%;
+}
+.login-section {
+  flex-basis: 60%;
+}

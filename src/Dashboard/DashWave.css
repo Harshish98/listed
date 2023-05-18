@@ -1,0 +1,15 @@
+.line-graph {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.line-graph h1 {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.line-graph div {
+  width: 1000px;
+  height: 360px;
+}

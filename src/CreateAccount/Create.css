@@ -1,0 +1,9 @@
+.create {
+  display: flex;
+}
+.board-section {
+  flex-basis: 40%;
+}
+.account-section {
+  flex-basis: 60%;
+}

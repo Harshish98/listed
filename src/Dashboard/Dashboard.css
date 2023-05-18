@@ -1,0 +1,12 @@
+.dashboard {
+  background-color: #dddddd;
+  display: flex;
+  padding: 2rem;
+}
+.nav-section {
+  flex-basis: 20%;
+}
+.content-section {
+  flex-basis: 80%;
+  padding: 10px 2rem;
+}
