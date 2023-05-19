@@ -10,8 +10,8 @@ function DashHeader() {
         </div>
         <div className="search-section">
           <input placeholder="Search.." />
-          <img src="/Assets/Vector (1).png" />
-          <img src="/Assets/Mask Group.png" />
+          <img src="Assets\Vector (1).png" />
+          <img src="Assets\Mask Group.png" />
         </div>
       </div>
       <div className="tabs">
