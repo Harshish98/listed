@@ -51,3 +51,13 @@ img {
 .color4 {
   background-color: #dee0ef;
 }
+
+@media screen and (max-width: 820px) {
+  .tabs div {
+    padding: 5px 10px;
+    width: 130px;
+  }
+  .tabs h2 {
+    font-size: 18px;
+  }
+}

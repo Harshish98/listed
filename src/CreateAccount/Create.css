@@ -7,3 +7,12 @@
 .account-section {
   flex-basis: 60%;
 }
+
+@media screen and (max-width: 820px) {
+  .board-section{
+    flex-basis: 50%;
+  }
+  .account-section{
+    flex-basis: 50%;
+  }
+}

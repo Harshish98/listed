@@ -5,7 +5,9 @@ function Board() {
   return (
     <>
       <div className="board">
+        <div>
         <h1>Board.</h1>
+        </div>
       </div>
     </>
   );

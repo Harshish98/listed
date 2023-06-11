@@ -40,7 +40,7 @@ function Login() {
         <button className="googlebtn" onClick={handleGoogle}>
           Sign in with Goggle
         </button>
-        <img src="Assets\google-icon 1.png" />
+        <img height={14} width={14} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"/>
         <div className="signin-form">
           <label>Email address</label>
           <input

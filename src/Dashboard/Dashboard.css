@@ -10,3 +10,12 @@
   flex-basis: 80%;
   padding: 10px 2rem;
 }
+
+@media screen and (max-width: 820px) {
+  .dashboard{
+    padding: 2rem 1rem;
+  }
+  .content-section{
+    padding: 10px 12px;
+  }
+}

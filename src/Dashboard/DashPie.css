@@ -13,3 +13,19 @@
   height: 155px;
   width: 150px;
 }
+
+@media screen and (max-width: 820px) {
+  .pie {
+    padding: 1rem;
+    width: 280px;
+  }
+  .pie h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .pie {
+    width: 245px;
+  }
+}

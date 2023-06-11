@@ -21,11 +21,10 @@ function DashPie() {
   const values = filteredData.map((item) => item.cases);
 
   const chartData = {
-    labels: labels,
+    labels,
     datasets: [
       {
         label: "My First Dataset",
-
         data: values,
         backgroundColor: [
           "rgba(255, 99, 132, 0.6)",
@@ -36,7 +35,6 @@ function DashPie() {
     ],
   };
 
-  console.log(chartData);
 
   return (
     <div className="pie">
